@@ -1,3 +1,10 @@
+# build for MAC
+
+```
+docker buildx build -t bakney/puppeteer . --platform linux/arm64
+docker run -d --name renderer -p 8080:3000 bakney/puppeteer
+```
+
 # Puppeteer(Chrome headless node API) based web page renderer
 
 [Puppeteer](https://github.com/GoogleChrome/puppeteer) (Chrome headless node API) based web page renderer.
