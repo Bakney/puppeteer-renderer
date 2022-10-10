@@ -41,7 +41,7 @@
     "puppeteer",
     "renderer",
     "express",
-    "chrome",
+    "chromium",
     "headless"
   ],
   "files": [

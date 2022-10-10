@@ -174,6 +174,7 @@ async function create(options = {}) {
 
   options.args.push('--no-sandbox')
   options.args.push('--disable-web-security')
+  options.executablePath = '/usr/bin/chromium'
 
   const browser = await puppeteer.launch(options)
 
